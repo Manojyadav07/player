@@ -1,7 +1,7 @@
-b1=['I','II','III','IV','V','VI','VII','VIII','IX','X','XI','XII','XIII','XIV','XV','XVI','XVII','XVIII','XIX','XX']
-sh=[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20]
-hb3=str(input())
-for hb4 in range(20):
-  if(hb3==hb1[hb4]):
-    print(sh[hb4])
-    break
+p=['I','II','III','IV','V','VI','VII','VIII','IX','X','XI','XII','XIII','XIV','XV','XVI','XVII','XVIII','XIX','XX']
+q=[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20]
+s=str(input())
+for i in range(20):
+    if(s==p[i]):
+        print(q[i])
+        
